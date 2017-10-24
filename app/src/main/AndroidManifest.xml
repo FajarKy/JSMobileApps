@@ -27,7 +27,8 @@
         <activity android:name=".login" />
         <activity android:name=".signup" />
         <activity android:name=".detail_kategori" />
-        <activity android:name=".about_viewpager"></activity>
+        <activity android:name=".about_viewpager" />
+        <activity android:name=".bookmark"></activity>
     </application>
 
 </manifest>
