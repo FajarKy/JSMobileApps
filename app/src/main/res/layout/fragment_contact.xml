@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fajarzky.jsmobileapps.Contact">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/js"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/logo_lg" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_alignTop="@+id/js"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="150dp"
+            android:background="#ffc400">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtabout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="CONTACT"
+                    android:textColor="#000"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtabout"
+                    android:layout_margin="10dp"
+                    android:text="Silahkan kontak kami apabila anda ingin mengajukan pertanyaan ataupun bentuk kerjasama, Periklanan dengan mengisi form dibawah ini, atau bisa menghubungi kami langsung di:
+
+If you have any question about Japanese Station , Advertising, Events, Partnership, etc. Do not hesitate to let us know by fill the form below or contact us direct at:
+
+E-mail:
+info@japanesestation.com (Untuk Pertanyaan / For Information)
+advertise@japanesestation.com (Untuk Periklanan / For Advertising)
+navigator@japanesestation.com (Untuk Jasa Talen / For Talent Hire)
+event@japanesestation.com (Untuk Event / For Event)
+
+Office  (オフィス) Bandung  :
+Jl. Libra No.32 Pondok Bentang Asri, Gumuruh
+Batununggal, Bandung 40275
+Phone: +62 82129988891
+
+Japan Office Agent:
+
+日本代理店
+デジタルカタパルト株式会社
+東京都文京区小石川 4 − 14 − 24
+KYODO小石川ビル6階
+電話：03-6865-8116
+Fax ：03-6865-8101" />
+            </RelativeLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

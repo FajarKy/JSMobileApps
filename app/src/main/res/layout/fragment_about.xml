@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fajarzky.jsmobileapps.About">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/js"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/logo_lg" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_alignTop="@+id/js"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="150dp"
+            android:background="#ffc400">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtabout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="TENTANG KAMI"
+                    android:textColor="#000"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtabout"
+                    android:layout_margin="10dp"
+                    android:text="Japanese Station merupakan portal situs berita atau media online tentang musik, dunia hiburan, budaya, gaya hidup, kuliner dan informasi unik lainnya yang berhubungan dengan Jepang. Situs ini diperuntukan bagi semua orang yang ingin melihat ide-ide kreatif di Jepang dan orang-orang yang menyenangi segala hal yang berbau Jepang serta mengenai apa yang sedang menjadi hit disana.
+
+Japanese Station ini sendiri dibentuk pada tahun 2009 dengan nama Japan Lands sebagai sebuah blog yang menyajikan informasi-informasi unik dan aneh mengenai Jepang, namun karena satu dan lain hal, pada akhir tahun 2010 Japan Lands sempat hiatus atau vakum dari segala kegiatannya. Tepatnya pada tanggal 06 Februari 2012, dengan konsep web portal yang menyediakan informasi terkini mengenai Jepang, kami kembali lagi dengan sistem baru, visi misi baru, manajemen baru disertai ide-ide dan tampilan yang lebih fresh maka kami bentuk kembali Japan Lands dengan nama Japanese Station.
+
+Saat ini kami menyediakan segala informasi mengenai Jepang dalam bahasa Indonesia dengan menggunakan gaya bahasa penyampaian yang semi-formal. Dimana ruang lingkup pasar kami adalah anak-anak muda sampai dengan orang dewasa dengan kisaran umur 15 – 50 tahun yang memang memilki ketertarikan dengan hal-hal mengenai Jepang.
+
+Dengan perpaduan teknologi informasi yang semain berkembang, kami membentuk portal online yang berisi informasi-informasi seputar Jepang dan melakukan promosi penyebaran informasi melalu social media seperti Facebook, Twitter dan Google Plus. Hal ini dilakukan agar memudahkan masyarakat Indonesia untuk mendapatkan informasi tersebut, mengingat Indonesia merupakan salah satu pengguna social media terbesar di dunia.
+
+Salian itu Japanese Station juga sering terlibat dalam peliputan setiap event-event Jepang baik di dalam negeri maupun luar negeri, serta memberikan dukungan penuh terhadap event, band dan komunitas lokal.
+
+Terima kasih telah berkunjung ke Japanese Station, untuk saran, kritik atau kerjasama Anda bisa kontak kami di email: info@japanesestation.com
+
+ありがとうございます" />
+            </RelativeLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</FrameLayout>
