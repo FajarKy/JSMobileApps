@@ -6,13 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.fajarzky.jsmobileapps.detail_kategori">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#ffc400">
-    </android.support.v7.widget.Toolbar>
-
     <ListView
         android:id="@+id/lv_lategori"
         android:layout_width="match_parent"
