@@ -80,13 +80,13 @@ public class home extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_home) {
 
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_kategori) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_about) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_login) {
 
         }
 
